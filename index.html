@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-link">
+        <ul>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contect</a>
+        </ul>
+        <div class="login">
+          <span class="log-btn">
+            <i class="uil uil-signin"></i>
+            <a href="#">Login</a>
+          </span>
+          <span class="sing-btn">
+            <a href="#">Sing up</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- form -->
+    <div id="login-box">
+      <div class="left">
+        <h1>Sign up</h1>
+        <input type="text" name="username" placeholder="Username" />
+        <input type="text" name="email" placeholder="E-mail" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="password" name="password2" placeholder="Retype password" />
+        <input
+          class="singup-btn"
+          type="submit"
+          name="signup_submit"
+          value="Sign me up"
+        />
+      </div>
+
+      <div class="right">
+        <span class="loginwith">Sign in with social network</span>
+        <button class="social-signin facebook">Log in with facebook</button>
+        <button class="social-signin twitter">Log in with Twitter</button>
+        <button class="social-signin google">Log in with Google+</button>
+      </div>
+      <div class="or">OR</div>
+      <div class="close-sing">⨉</div>
+    </div>
+
+    <div id="sing-up">
+      <h1>Wellcome</h1>
+      <div class="close-log">⨉</div>
+      <div class="profile">
+        <img src="./img/man-icon-vector-260nw-1040084344.webp" alt="" />
+      </div>
+      <div class="info">
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input
+          class="logn-btn"
+          type="submit"
+          name="signup_submit"
+          value="Login"
+        />
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
